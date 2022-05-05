@@ -7,7 +7,9 @@ export const PageApex = () => {
       id: "apexchart-example",
     },
     xaxis: {
-      categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999],
+      categories: [
+        2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022,
+      ],
     },
   });
 
@@ -26,7 +28,7 @@ export const PageApex = () => {
     <Chart
       options={options}
       series={series}
-      type="line"
+      type="radar" //"bar","line", "donut","area", "radar", "histogram", "pie", "radialBar", scatter, bubble, heatmap, candlestick
       width={800}
       height={520}
     />
