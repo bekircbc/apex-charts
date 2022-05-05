@@ -28,7 +28,7 @@ export const App = () => {
     <Chart
       options={options}
       series={series}
-      type="bar" //"bar","line", "donut","area", "radar", "histogram", "pie", "radialBar", scatter, bubble, heatmap, candlestick
+      type="histogram" //"bar","line", "donut","area", "radar", "histogram", "pie", "radialBar", scatter, bubble, heatmap, candlestick
       width={800}
       height={520}
     />
