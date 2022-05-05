@@ -1,7 +1,7 @@
 import Chart from "react-apexcharts";
 import { useState } from "react";
 
-export const PageApex = () => {
+export const App = () => {
   const [options, setOptions] = useState({
     chart: {
       id: "apexchart-example",
