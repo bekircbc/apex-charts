@@ -2,7 +2,10 @@ import Chart from "react-apexcharts";
 import { useState } from "react";
 
 export const App = () => {
-  const [options, setOptions] = useState({
+  const [options, setOptions] = useState({});
+  const [series, setSeries] = useState([]);
+
+  setOptions({
     chart: {
       id: "apexchart-example",
     },
@@ -13,7 +16,7 @@ export const App = () => {
     },
   });
 
-  const [series, setSeries] = useState([
+  setSeries([
     {
       name: "series-1",
       data: [30, 40, 35, 50, 49, 60, 70, 91, 125, 30, 45, 65],
