@@ -31,7 +31,7 @@ export const App = () => {
     <Chart
       options={options}
       series={series}
-      type="histogram" //"bar","line", "donut","area", "radar", "histogram", "pie", "radialBar", scatter, bubble, heatmap, candlestick
+      type="line" //"bar","line", "donut","area", "radar", "histogram", "pie", "radialBar", scatter, bubble, heatmap, candlestick
       width={800}
       height={520}
     />
